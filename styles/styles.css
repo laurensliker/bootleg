@@ -1,0 +1,119 @@
+body{
+	padding: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+}
+
+
+
+.reset{
+   all: unset;
+
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+
+.card{
+	margin:20px;
+	height: 250pt;
+	width:175pt;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+ 	border-radius: 20px;
+ 	font-size: 30pt;
+}
+
+.card-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 35pt;
+
+}
+
+.instructions{
+	border-style:dashed;
+	border-width: 4px;
+	border-color: black;
+ 	margin:auto;
+ 	margin-top: 40pt;
+ 	padding:30pt;
+ 	max-width: 500pt;
+ }
+
+.left{
+	position: relative;
+	z-index: 2;
+	margin-top: 8pt;
+	margin-left: 15pt;
+	display: flex;
+}
+
+
+.left_down{
+	position: relative;
+	z-index: 2;
+	margin-top: -8pt;
+	margin-left: 5pt;
+}
+
+.middle_image-space{
+
+	position: relative;
+	z-index: 1;
+	margin-top: -55pt;
+	margin-left: 40pt;
+	height: 180pt;
+	width:95pt;
+
+	}
+
+.middle_image{
+ position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+	width:95pt;
+	align-self: center;
+	align-content: center;
+	
+}
+
+.number{
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+}
+
+
+.right{
+	position: relative;
+	z-index: 2;
+	align-content: right;
+	padding-left:15pt;
+	margin-top:-10pt;
+	transform: rotate(180deg);
+}
+
+.right_up{
+	position: relative;
+	z-index: 2;
+padding-left:5pt;
+	margin-top:-80pt;
+	transform: rotate(180deg);
+}
+
+.suit-icon{
+	max-width: 40pt;
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+}
